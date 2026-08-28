@@ -13,6 +13,7 @@ export default function Home() {
       <Skills />
 
       <Articles />
+      {/* <Certifications /> */}
 
     </div>
   );
