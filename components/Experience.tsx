@@ -1,13 +1,8 @@
 // Experience.tsx
 import liveintechlogo from '@/public/images/liveintech_venturestudio_logo.jpg';
-import nodelogo from '@/public/logos/icons8-nodejs.svg';
-import expresslogo from '@/public/logos/icons8-express-js.svg';
-import mysqllogo from '@/public/logos/icons8-mysql.svg';
-import typescriptlogo from '@/public/logos/icons8-typescript.svg';
-import redislogo from '@/public/logos/icons8-redis.svg';
-import restapilogo from '@/public/logos/api.png';
 import { ExperienceCard } from "./ExperienceCard";
 import { SectionHeading } from "./SectionHeading";
+import { Icons } from '@/public';
 export default function Experience() {
     const experiences = [
         {
@@ -22,27 +17,27 @@ export default function Experience() {
             technologies: [
                 {
                     name: "Node.js",
-                    logo: nodelogo,
+                    logo: Icons.nodeIcon,
                 },
                 {
                     name: "Express.js",
-                    logo: expresslogo,
+                    logo: Icons.expressIcon,
                 },
                 {
                     name: "MySQL",
-                    logo: mysqllogo,
+                    logo: Icons.mysqlIcon,
                 },
                 {
                     name: "TypeScript",
-                    logo: typescriptlogo,
+                    logo: Icons.tsIcon,
                 },
                 {
                     name: "Redis",
-                    logo: redislogo,
+                    logo: Icons.redisIcon,
                 },
                 {
                     name: "Rest APIs",
-                    logo: restapilogo,
+                    logo: Icons.restAPiIcon,
                 },
             ],
             highlights: [

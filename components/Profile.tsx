@@ -16,7 +16,7 @@ export default function Profile() {
                 />
             </div>
 
-            <div className="px-4 border border-gray-700 w-full">
+            <div className="px-4 w-full border border-zinc-900 py-3">
                 {/* Avatar + Edit profile row */}
                 <div className="relative flex justify-between items-end -mt-16 z-10 ">
                     <div className="w-32 h-32 rounded-full border-4 border-black overflow-hidden bg-gray-900 shrink-0">
@@ -70,7 +70,7 @@ export default function Profile() {
 
 
 
-                <div className="border-b border-gray-800 mt-4" />
+
             </div>
         </div >
     );
