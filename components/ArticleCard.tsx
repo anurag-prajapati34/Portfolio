@@ -48,14 +48,16 @@ export const ArticleCard = ({ article }: { article: Article }) => {
 
                 <div className="flex items-center gap-3 mt-auto pt-2">
                     <span className="text-zinc-500 text-xs">{formatDate(pubDate)}</span>
-                    {categories?.[0] && (
-                        <span className="text-zinc-500 text-xs bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded-full">
-                            {categories[0]}
-                        </span>
-                    )}
-                    <ArrowUpRight className="w-3.5 h-3.5 text-zinc-600 group-hover:text-sky-400 ml-auto transition-colors" />
+                    {
+                        categories.map((category) => {
+                            return (< span key={category} className="text-zinc-500 text-xs bg-zinc-900 border border-zinc-800 px-2 py-0.5 rounded-full" >
+                                {category}
+                            </span>)
+                        })
+                    }
+                    <ArrowUpRight className="w-3.5 h-3.5 text-zinc-600 group-hover:text-sky-400 ml-auto transition-colors text-end" />
                 </div>
             </div>
-        </a>
+        </a >
     );
 };
