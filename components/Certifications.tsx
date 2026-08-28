@@ -7,7 +7,7 @@ export default function Certifications() {
     if (certifications.length === 0) return null;
 
     return (
-        <div className="w-full text-white font-sans text-start mt-10">
+        <div id="certifications" className="w-full text-white font-sans text-start mt-10">
             <SectionHeading title="Certifications" />
             <div className="flex flex-col gap-3 mt-6">
                 {certifications.map((cert) => (

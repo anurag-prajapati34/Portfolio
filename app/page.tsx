@@ -6,7 +6,7 @@ import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black gap-2 mb-12">
+    <div className="w-full flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black gap-4 mb-12">
       <Profile />
       <Experience />
       <Projects />

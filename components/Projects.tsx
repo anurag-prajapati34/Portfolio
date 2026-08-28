@@ -6,7 +6,7 @@ export default function Projects() {
 
 
     return (
-        <div className="w-full text-white font-sans text-start mt-10">
+        <div id="projects" className="w-full text-white font-sans text-start mt-10">
             <SectionHeading title="Projects" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6">
                 {projects.map((project, i) => (

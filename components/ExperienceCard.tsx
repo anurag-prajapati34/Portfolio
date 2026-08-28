@@ -35,7 +35,7 @@ const formatDate = (date: string | null, isCurrent: boolean) => {
 };
 
 export const ExperienceCard = ({ experience }: { experience: ExperienceType }) => {
-    const [expanded, setExpanded] = useState(false);
+    const [expanded, setExpanded] = useState(true);
 
     const {
         company,

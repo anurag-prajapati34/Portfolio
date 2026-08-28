@@ -50,7 +50,7 @@ export default function Experience() {
     ];
 
     return (
-        <div className="w-full text-white font-sans text-start mt-8">
+        <div id="experience" className="w-full text-white font-sans text-start mt-8">
             <SectionHeading title="Experience" />
             <div className="flex flex-col gap-4 mt-4">
                 {experiences.map((exp, i) => (

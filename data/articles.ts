@@ -13,7 +13,7 @@ export type Article = {
 export const articles: Article[] = [
   {
     title: "The 10 Best JavaScript Frameworks for 2023",
-    link: "https://www.freecodecamp.org/news/10-best-javascript-frameworks-for-2023/",
+    link: "https://www.freecodecamp.org/news/10-best-javascript-frameworks-for-2023/1",
     pubDate: "2023-01-01",
     excerpt:
       "Discover the top 10 JavaScript frameworks for 2023, including React, Vue, Angular, Svelte, and more.",
@@ -22,7 +22,7 @@ export const articles: Article[] = [
   },
   {
     title: "The 10 Best JavaScript Frameworks for 2023",
-    link: "https://www.freecodecamp.org/news/10-best-javascript-frameworks-for-2023/",
+    link: "https://www.freecodecamp.org/news/10-best-javascript-frameworks-for-2023/2",
     pubDate: "2023-01-01",
     excerpt:
       "Discover the top 10 JavaScript frameworks for 2023, including React, Vue, Angular, Svelte, and more.",
@@ -31,7 +31,7 @@ export const articles: Article[] = [
   },
   {
     title: "The 10 Best JavaScript Frameworks for 2023",
-    link: "https://www.freecodecamp.org/news/10-best-javascript-frameworks-for-2023/",
+    link: "https://www.freecodecamp.org/news/10-best-javascript-frameworks-for-2023/3",
     pubDate: "2023-01-01",
     excerpt:
       "Discover the top 10 JavaScript frameworks for 2023, including React, Vue, Angular, Svelte, and more.",
@@ -40,7 +40,7 @@ export const articles: Article[] = [
   },
   {
     title: "The 10 Best JavaScript Frameworks for 2023",
-    link: "https://www.freecodecamp.org/news/10-best-javascript-frameworks-for-2023/",
+    link: "https://www.freecodecamp.org/news/10-best-javascript-frameworks-for-2023/4",
     pubDate: "2023-01-01",
     excerpt:
       "Discover the top 10 JavaScript frameworks for 2023, including React, Vue, Angular, Svelte, and more.",
