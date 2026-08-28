@@ -17,6 +17,7 @@ import convexIcon from "./icons/convex.png";
 import dockerIcon from "./icons/docker.png";
 import fastapiIcon from "./icons/fastapi.svg";
 import awsIcon from "./icons/icons8-aws.svg";
+import cppIcon from "./icons/c-plusplus.svg";
 import expressIcon from "./icons/icons8-express-js.svg";
 import gitIcon from "./icons/icons8-git.svg";
 import githubIcon from "./icons/icons8-github-logo.svg";
@@ -26,6 +27,9 @@ import postgresQlIcon from "./icons/icons8-postgresql.svg";
 import prismaIcon from "./icons/icons8-prisma-orm.svg";
 import redisIcon from "./icons/icons8-redis.svg";
 import reduxIcon from "./icons/icons8-redux.svg";
+import sqlIcon from "./icons/azure-sql-database.svg";
+import langchainIcon from "./icons/langchain-color.svg";
+import bullmqIcon from "./icons/bullmq-logo-1024.png";
 import tsIcon from "./icons/icons8-typescript.svg";
 import leetcodeIcon from "./icons/leetcode.svg";
 import nextjsIcon from "./icons/nextjs-light.svg";
@@ -36,6 +40,8 @@ import booklyPreviewImage from "./images/bookly.png";
 import collabxPreviewImage from "./images/collabx.png";
 import knowledgeBasePreviewImage from "./images/knowledgebase.png";
 import notivoPreviewImage from "./images/notivo.png";
+import zodIcon from "./icons/zod.svg";
+import postmanIcon from "./icons/postman.svg";
 export const Icons = {
   reactIcon,
   nodeIcon,
@@ -70,6 +76,12 @@ export const Icons = {
   pydanticIcon,
   sqlalchemyIcon,
   celeryIcon,
+  cppIcon,
+  sqlIcon,
+  langchainIcon,
+  zodIcon,
+  bullmqIcon,
+  postmanIcon,
 };
 
 export const Images = {
