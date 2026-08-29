@@ -19,6 +19,16 @@ const nextConfig: NextConfig = {
         hostname: "upload.wikimedia.org",
         port: "",
       },
+      {
+        protocol: "https",
+        hostname: "drive.google.com",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        port: "",
+      },
     ],
   },
 };

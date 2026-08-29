@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { ProjectHero } from "@/components/ProjectHero";
 import { ScreenshotGallery } from "@/components/ScreenshotGallery";
 import { projects } from "@/data/projects";
+import { Icons } from "@/public";
 
 const statusStyles: Record<string, string> = {
     Live: "bg-emerald-400/10 text-emerald-400 border-emerald-400/20",
@@ -79,7 +80,7 @@ export default async function ProjectPage({
                             rel="noopener noreferrer"
                             className="flex items-center gap-1.5 border border-zinc-800 text-sm font-semibold px-4 py-2 rounded-full hover:border-zinc-600 transition-colors"
                         >
-                            <GitBranch className="w-4 h-4" />
+                            <Image src={Icons.githublightIcon} alt={"GitHub"} width={20} height={20} className="object-contain" />
                             GitHub
                         </a>
                     )}

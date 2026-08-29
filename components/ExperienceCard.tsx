@@ -52,8 +52,8 @@ export const ExperienceCard = ({ experience }: { experience: ExperienceType }) =
 
     return (
         <div
-            onClick={() => setExpanded((prev) => !prev)}
-            className="border border-zinc-900 hover:border-zinc-800  px-4 py-3 cursor-pointer transition-colors"
+            // onClick={() => setExpanded((prev) => !prev)}
+            className="border border-zinc-900   px-4 py-3  transition-colors"
         >
             <div className="flex gap-3">
                 <Image
@@ -69,10 +69,10 @@ export const ExperienceCard = ({ experience }: { experience: ExperienceType }) =
                             <h3 className="text-white font-bold text-base leading-tight">{role}</h3>
                             <p className="text-sky-500 text-sm font-medium mt-0.5">{company}</p>
                         </div>
-                        <ChevronDown
+                        {/* <ChevronDown
                             className={`w-4 h-4 text-zinc-500 shrink-0 mt-1 transition-transform duration-300 ${expanded ? "rotate-180" : ""
                                 }`}
-                        />
+                        /> */}
                     </div>
 
                     <div className="mt-2">

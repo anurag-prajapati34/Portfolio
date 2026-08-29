@@ -65,6 +65,10 @@ export const skills = [
     name: "Langchain",
     logo: Icons.langchainIcon,
   },
+  {
+    name: "Drizzle",
+    logo: Icons.drizzleIcon,
+  },
   // Frontend
   {
     name: "React",

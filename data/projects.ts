@@ -48,12 +48,20 @@ export const projects: ProjectType[] = [
         logo: Icons.mysqlIcon,
       },
       {
+        name: "Drizzle",
+        logo: Icons.drizzleIcon,
+      },
+      {
         name: "TypeScript",
         logo: Icons.tsIcon,
       },
       {
         name: "Redis",
         logo: Icons.redisIcon,
+      },
+      {
+        name: "BullMQ",
+        logo: Icons.bullmqIcon,
       },
       {
         name: "Rest APIs",
@@ -69,10 +77,19 @@ export const projects: ProjectType[] = [
       },
     ],
     highlights: [
-      "Built realtime cursor presence and multiplayer sync using Liveblocks, so every stroke and shape updates instantly across all connected clients.",
-      "Designed an infinite canvas with pan, zoom, and shape tools (rectangle, ellipse, freehand, text) rendered on top of a custom coordinate system.",
-      "Used Convex as the backend for persistence, so boards survive refreshes and can be reopened with full history intact.",
-      "Integrated Clerk for authentication and per-board access control, supporting both owners and invited collaborators.",
+      "Built a multi-tenant email notification platform enabling developers to send transactional emails through a single REST API using customizable templates.",
+      "Designed an asynchronous email delivery pipeline using BullMQ, Redis, and background workers with automatic retries and exponential backoff.",
+      "Developed REST APIs for email delivery, template management, SMTP credential management, delivery logs, and analytics dashboards.",
+      "Implemented email lifecycle tracking (Pending, Processing, Sent, Failed) with detailed logs for monitoring and debugging.",
+    ],
+    screenshots: [
+      Images.notivoDashboardImage,
+      Images.notivoEmailsImage,
+      Images.notivoTemplatesImage,
+      Images.notivoCredsImage,
+      Images.notivoSendEmailImage,
+      Images.notivoEmailLogsImage,
+      Images.notivoCreateTemplateImage,
     ],
     links: {
       live: "https://notivo.anuragdev.com/",
@@ -89,10 +106,6 @@ export const projects: ProjectType[] = [
     status: "Live" as const,
     technologies: [
       {
-        name: "Python",
-        logo: Icons.pythonIcon,
-      },
-      {
         name: "FastAPI",
         logo: Icons.fastapiIcon,
       },
@@ -101,20 +114,13 @@ export const projects: ProjectType[] = [
         logo: Icons.postgresQlIcon,
       },
       {
-        name: "TypeScript",
-        logo: Icons.tsIcon,
+        name: "Python",
+        logo: Icons.pythonIcon,
       },
+
       {
         name: "celery",
         logo: Icons.celeryIcon,
-      },
-      {
-        name: "Rest APIs",
-        logo: Icons.restAPiIcon,
-      },
-      {
-        name: "React",
-        logo: Icons.reactIcon,
       },
       {
         name: "Pydantic",
@@ -125,15 +131,34 @@ export const projects: ProjectType[] = [
         logo: Icons.sqlalchemyIcon,
       },
       {
+        name: "Rest APIs",
+        logo: Icons.restAPiIcon,
+      },
+      {
+        name: "TypeScript",
+        logo: Icons.tsIcon,
+      },
+      {
+        name: "React",
+        logo: Icons.reactIcon,
+      },
+      {
         name: "TailwindCSS",
         logo: Icons.tailwindtIcon,
       },
     ],
     highlights: [
-      "Built realtime cursor presence and multiplayer sync using Liveblocks, so every stroke and shape updates instantly across all connected clients.",
-      "Designed an infinite canvas with pan, zoom, and shape tools (rectangle, ellipse, freehand, text) rendered on top of a custom coordinate system.",
-      "Used Convex as the backend for persistence, so boards survive refreshes and can be reopened with full history intact.",
-      "Integrated Clerk for authentication and per-board access control, supporting both owners and invited collaborators.",
+      "Built a multi-tenant RAG platform enabling users to create isolated bases, upload documents, (PDF,MD,TXT),and query them via an LLM with source-cited answers.",
+      "Designed an asynchronous document ingestion pipeline using Celery and Redis to extract, chunk and embed documents via sentence-transformers without blocking API requests.",
+      "Implemented semantic search using PostgreSQL with pgvector, performing cosine-similarity retrieval scoped per knowledge base to groud LLM responses in relevant context.",
+      "Integrated LangChain to abstract LLM and embedding providers and google Gemini for context grounded answer generation with per chunk source citations.",
+    ],
+    screenshots: [
+      Images.knowledgeDashboardImage,
+      Images.knowledgeCreateImage,
+      Images.knowledgeUploadImage,
+      Images.knowledgeChatScreenImage,
+      Images.knowledgeQueryImage,
     ],
     links: { github: "https://github.com/anurag-prajapati34/Knowledge" },
   },
@@ -172,6 +197,14 @@ export const projects: ProjectType[] = [
       "Designed an infinite canvas with pan, zoom, and shape tools (rectangle, ellipse, freehand, text) rendered on top of a custom coordinate system.",
       "Used Convex as the backend for persistence, so boards survive refreshes and can be reopened with full history intact.",
       "Integrated Clerk for authentication and per-board access control, supporting both owners and invited collaborators.",
+    ],
+    screenshots: [
+      Images.collabx1Image,
+      Images.collabx2Image,
+      Images.collabx3Image,
+      Images.collabx4Image,
+      Images.collabx5Image,
+      Images.collabx6Image,
     ],
     links: {
       live: "https://collabx-six.vercel.app/",
@@ -212,10 +245,10 @@ export const projects: ProjectType[] = [
       },
     ],
     highlights: [
-      "Built realtime cursor presence and multiplayer sync using Liveblocks, so every stroke and shape updates instantly across all connected clients.",
-      "Designed an infinite canvas with pan, zoom, and shape tools (rectangle, ellipse, freehand, text) rendered on top of a custom coordinate system.",
-      "Used Convex as the backend for persistence, so boards survive refreshes and can be reopened with full history intact.",
-      "Integrated Clerk for authentication and per-board access control, supporting both owners and invited collaborators.",
+      "Online bookstore offering a wide range of books across various categories.",
+      "Integrates APIs like Google Books API and New York Times.",
+      "Built with React, Vanilla CSS, and Tailwind CSS for a sleek and responsive user interface.",
+      "Utilizes React Router for navigation and React Context for state management.",
     ],
     links: {
       live: "https://bookly-6t46.onrender.com/",
@@ -224,9 +257,12 @@ export const projects: ProjectType[] = [
     ytVideoLink:
       "https://www.youtube.com/embed/VJ891E_YcuA?si=NvXcSEcudcDehx1W",
     screenshots: [
-      Images.booklyPreviewImage,
-      Images.knowledgeBasePreviewImage,
-      Images.notivoPreviewImage,
+      Images.booklyHeroImage,
+      Images.booklyBestSellersImage,
+      Images.booklyScrollImage,
+      Images.booklyFavoritesImage,
+      Images.booklyAboutImage,
+      Images.booklyContactImage,
     ],
   },
 ];
