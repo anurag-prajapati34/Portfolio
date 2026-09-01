@@ -70,7 +70,7 @@ export const LeftSidebar = () => {
     };
 
     return (
-        <div className="w-1/4 flex justify-end py-48 px-10 relative">
+        <div className="w-full flex justify-end py-48 px-10 relative">
             <div className="fixed">
                 <nav className="relative pl-4 w-40">
                     <p className="text-zinc-600 text-[11px] font-semibold tracking-widest mb-4">

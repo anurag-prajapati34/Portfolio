@@ -76,6 +76,8 @@ import collabx3Image from "./images/projects/collabx-3.png";
 import collabx4Image from "./images/projects/collabx-4.png";
 import collabx5Image from "./images/projects/collabx-5.png";
 import collabx6Image from "./images/projects/collabx-6.png";
+
+import liveIntechLogoImage from "./images/liveintech_venturestudio_logo.jpg";
 export const Icons = {
   reactIcon,
   nodeIcon,
@@ -158,4 +160,6 @@ export const Images = {
   collabx4Image,
   collabx5Image,
   collabx6Image,
+
+  liveIntechLogoImage,
 };

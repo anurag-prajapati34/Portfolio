@@ -20,7 +20,7 @@ const links: LinkItem[] = [
 
 export const RightSidebar = () => {
     return (
-        <div className="w-1/4 flex justify-start py-48 px-10 relative">
+        <div className="flex justify-start py-48 px-10 relative">
             <div className="fixed w-64   px-4 py-3">
                 <p className="text-zinc-600 text-[11px] font-semibold tracking-widest mb-4">
                     CONNECT
