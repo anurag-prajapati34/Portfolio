@@ -40,12 +40,14 @@ export default function Profile() {
                     </div>
                     <p className="text-gray-500 text-sm">@anurag_x34</p>
                     <p className="text-sm mt-2">
-                        Backend-heavy full-stack engineer, building AI-integrated products
+                        Backend Engineer | Full-Stack Developer | AI Engineer
                     </p>
 
                     <ul className="flex flex-col gap-y-2 text-xs text-zinc-400 mt-2 list-disc list-inside marker:text-zinc-500">
-                        <li>Backend-first, but I ship the full product — API to UI</li>
-                        <li>Learning, Building, Improving and moving forward</li>
+                        <li>Building backend systems and APIs that power real product</li>
+                        <li>Shipping end-to-end applications, from architecture to interface</li>
+                        {/* <li>Turning AI/LLMs into useful product features</li> */}
+
                     </ul>
                 </div>
 
