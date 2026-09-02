@@ -27,12 +27,12 @@ export const RightSidebar = () => {
                 </p>
 
                 <div className="flex flex-col gap-1">
-                    {links.map(({ label, href, icon: Icon, external }) => (
+                    {links.map(({ label, href, icon: Icon, }) => (
                         <a
                             key={label}
                             href={href}
-                            target={external ? "_blank" : undefined}
-                            rel={external ? "noopener noreferrer" : undefined}
+                            target={"_blank"}
+                            rel={"noopener noreferrer"}
                             className="group flex items-center gap-2.5 py-1.5 text-zinc-500 hover:text-white transition-colors"
                         >
                             <Image src={Icon as string} alt={label} width={20} height={20} className="object-contain" />
