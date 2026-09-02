@@ -12,7 +12,7 @@ export default function Home() {
     <div className="w-full flex h-full relative">
 
       <div className="w-1/4 lg:block hidden"> <LeftSidebar /> </div>
-      <div className="flex-1 flex flex-col min-w-0 overflow-y-auto px-2 pb-2 gap-4">
+      <div className="flex-1 flex flex-col min-w-0 overflow-y-auto lg:px-2 px-3 pb-2 gap-4">
         <Profile />
         <Experience />
         <Projects />

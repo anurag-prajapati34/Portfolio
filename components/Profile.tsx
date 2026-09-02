@@ -1,8 +1,26 @@
-import { Images } from "@/public";
-import { BadgeCheck, Calendar, MapPin } from "lucide-react";
+import { Icons, Images } from "@/public";
+import { BadgeCheck, Calendar, FileText, MapPin } from "lucide-react";
 import Image from "next/image";
 
 export default function Profile() {
+
+
+    type LinkItem = {
+        label: string;
+        href: string;
+        icon: React.ElementType;
+        external?: boolean;
+    };
+
+    const links: LinkItem[] = [
+        { label: "GitHub", href: "https://github.com/anurag-prajapati34", icon: Icons.githublightIcon, },
+        { label: "LinkedIn", href: "https://www.linkedin.com/in/anurag-prajapati34/", icon: Icons.linkedinIcon, },
+        { label: "X / Twitter", href: "https://x.com/anurag_x34", icon: Icons.twitterIcon, },
+        // { label: "Medium", href: "https://medium.com/@anurag-prajapati", icon: Icons.mediumIcon, },
+        { label: "Email", href: "mailto:prajapatianurag73240@gmail.com", icon: Icons.gmailIcon, },
+
+    ];
+
     return (
         <div className="w-full text-white font-sans text-start">
             {/* Banner */}
@@ -62,7 +80,35 @@ export default function Profile() {
                         <span>Building Software since 2022</span>
                     </div>
                 </div>
+
+                {/*contacts section*/}
+                <div className="w-full flex items-center gap-4 mt-2 lg:hidden">
+                    {links.map(({ label, href, icon: Icon, external }) => (
+                        <a
+                            key={label}
+                            href={href}
+                            target={external ? "_blank" : undefined}
+                            rel={external ? "noopener noreferrer" : undefined}
+                            className="group flex items-center gap-2.5 py-1.5 text-zinc-500 hover:text-white transition-colors"
+                        >
+                            <Image src={Icon as string} alt={label} width={20} height={20} className="object-contain" />
+                        </a>
+                    ))}
+
+
+                    <a
+                        href="https://drive.google.com/file/d/1Zhse2FAuJFg10ilWlfV11aHXqfc9GTfq/view"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 border-b  text-sm font-semibold text-white transition-colors"
+                    >
+                        Resume
+                        <FileText className="w-3.5 h-3.5" />
+                    </a>
+                </div>
             </div>
+
+
         </div>
     );
 }
