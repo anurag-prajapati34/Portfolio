@@ -54,9 +54,9 @@ export default function Profile() {
                 <div className="mt-3">
                     <div className="flex items-center gap-1">
                         <h1 className="text-lg font-extrabold leading-tight">Anurag Prajapati</h1>
-                        <BadgeCheck className="w-5 h-5 text-sky-500" fill="#1d9bf0" stroke="black" />
+                        {/* <BadgeCheck className="w-5 h-5 text-sky-500" fill="#1d9bf0" stroke="black" /> */}
                     </div>
-                    <p className="text-gray-500 text-sm">@anurag_x34</p>
+                    {/* <p className="text-gray-500 text-sm">21</p> */}
                     <p className="text-sm mt-2">
                         Backend Engineer | Full-Stack Developer | AI Engineer
                     </p>
