@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     siteName: "Anurag Prajapati",
     images: [
       {
-        url: "https://anuragdev.com/og-image.png",
+        url: "https://anuragdev.com/profile.jpeg",
         width: 1200,
-        height: 630,
+        height: 1200,
         alt: "Anurag Prajapati",
       },
     ],
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Anurag Prajapati",
     description:
       "Software Engineer",
-    images: ["https://anuragdev.com/og-image.png"],
+    images: ["https://anuragdev.com/profile.jpeg"],
   },
 };
 
