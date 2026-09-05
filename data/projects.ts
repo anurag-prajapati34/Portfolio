@@ -95,6 +95,7 @@ export const projects: ProjectType[] = [
       live: "https://notivo.anuragdev.com/",
       github: "https://github.com/anurag-prajapati34/Notivo",
     },
+    ytVideoLink: "https://youtu.be/JhA0hUIzyt0",
   },
   {
     slug: "knowledgebase",
