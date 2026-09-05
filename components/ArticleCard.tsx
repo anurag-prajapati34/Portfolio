@@ -46,7 +46,7 @@ export const ArticleCard = ({ article }: { article: Article }) => {
                     {excerpt}
                 </p>
 
-                <div className="flex items-center gap-3 mt-auto pt-2">
+                <div className="flex items-center gap-3 mt-auto pt-2 flex-wrap">
                     <span className="text-zinc-500 text-xs">{formatDate(pubDate)}</span>
                     {
                         categories.map((category) => {
