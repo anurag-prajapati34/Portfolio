@@ -11,6 +11,21 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+    title: "HLD vs LLD in System Design",
+    link: "https://medium.com/@anurag-prajapati/hld-vs-lld-in-system-design-db92a02d20c2?sharedUserId=anurag-prajapati",
+    pubDate: "2026-09-05",
+    excerpt:
+      "What is the difference betweeen HLD (High Level Design) and LLD (Low Level Design).",
+    thumbnail:
+      "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*dgmzKO_Rwv3OHedyGOsu1g.png",
+    categories: [
+      "Backend",
+      "System Design",
+      "High Level Design",
+      "Low Level Design",
+    ],
+  },
+  {
     title: "Socket.io beginners guide",
     link: "https://medium.com/@anurag-prajapati/socket-io-beginners-guide-cd3193286460",
     pubDate: "2025-09-30",
