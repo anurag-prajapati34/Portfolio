@@ -58,13 +58,13 @@ export default function Profile() {
                     </div>
                     {/* <p className="text-gray-500 text-sm">21</p> */}
                     <p className="text-sm mt-2">
-                        Backend Engineer | Full-Stack Developer | AI Engineer
+                        Software Engineer | Backend • AI • Full-Stack
                     </p>
 
                     <ul className="flex flex-col gap-y-2 text-xs text-zinc-400 mt-2 list-disc list-inside marker:text-zinc-500">
-                        <li>Building backend systems and APIs that power real product</li>
-                        <li>Shipping end-to-end applications, from architecture to interface</li>
-                        {/* <li>Turning AI/LLMs into useful product features</li> */}
+                        <li><b>Backend</b> first engineer building APIs, services, and scalable systems</li>
+                        <li><b>Full-stack </b> when needed taking products from architecture to polished UI</li>
+                        <li><b>AI & LLM</b> engineering building RAG, agents, and intelligent workflows</li>
 
                     </ul>
                 </div>
